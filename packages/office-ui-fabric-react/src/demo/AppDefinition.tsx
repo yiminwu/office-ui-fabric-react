@@ -243,6 +243,12 @@ export const AppDefinition: IAppDefinition = {
           key: 'Tooltip',
           name: 'Tooltip',
           url: '#/examples/Tooltip'
+        },
+        {
+          component: require<any>('../components/Tree/TreePage').TreePage,
+          key: 'Tree',
+          name: 'Tree',
+          url: '#/examples/Tree'
         }
       ],
       name: 'Basic components'
